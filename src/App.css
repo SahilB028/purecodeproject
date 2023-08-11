@@ -1,0 +1,405 @@
+.navbar li{
+	display:inline-block;
+color:rgb(102, 99, 99);
+display: flex;
+text-align: center;
+margin-top: -25px;
+margin-right: 100px;
+
+}
+.navbar{
+	height: 60px;
+background-color:white;
+box-shadow:1px 1px 1px whitesmoke;
+width: 100%;
+top: 0%;
+position: fixed;
+
+}
+#icon{
+    margin-top:-15px;
+    margin-left: 180px;
+}
+#button{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.input
+{
+margin-left: 300px;
+margin-top: 8px;
+border-color: aliceblue;
+border: none;
+
+}
+.options{
+    margin-left: 900px;
+    border: none;
+    margin-top: 5px;
+}
+.vl {
+    border-left: 1px solid rgb(228, 225, 225);
+    height: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+ #msg{
+    color: black;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 20px;
+    font-size: 22px;
+
+ }
+ #bell{
+    margin-top: 25px;
+    margin-left: -70px;
+    color: black;
+    font-size: 22px;
+
+ }
+ .profile img{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: -120px;
+    margin-top: 15px;
+    height: 40px;
+ }
+ .jack{
+    margin-left: -170px;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    font-size:medium
+ }
+.sidebar{
+   background-color:white;
+border-radius:0px 0px 0px 0px;
+box-shadow:2px 2px 2px gray;
+width: 99%;	
+margin-top: 60px;
+width: 260px;
+height: 91%;
+padding: 10px;
+
+}
+.sidebar li{
+  margin-top: 30px;
+   list-style-type: none;
+} 
+.icon{
+  background-color: white;
+  width: 60px;
+  height: 10px;
+  
+}
+.item{
+  font-weight:500;
+}
+
+.arrow img{
+   width: 20px;
+   margin-left: 60px;
+   margin-top: 10px;
+}
+.item{
+   margin: 10px;
+   font-weight: 10%;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 60px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+#community{
+  color: gray;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.arrow1 {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 108px;
+}
+
+.right1 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.hot{
+  margin-left: 50px;
+  top: 10px;
+}
+
+.background-container {
+   background-size: cover;
+   width: 100%;
+   background-color: whitesmoke;
+   height: 100%;
+ }
+ 
+ .centered-content {
+   padding: 20px;
+   text-align: center;
+   border-radius: 10px;
+   
+ }
+  #hrp{
+   margin-top: 100px;  
+   margin-left: 20px;
+   width: 700px;
+
+ }
+ 
+ .centered-content h1 {
+  margin-top: 60px;
+  font-size:larger;
+  float: left;
+  margin-left: 20px;
+  font-weight: bolder;
+ }
+ 
+ .centered-content p {
+   margin: 0;
+ }
+.parent{
+   display: flex;
+   flex-direction: row;
+}
+.searchbox{
+  width: 700px;
+   background-color: white;
+   border-radius: 10px;
+   margin-left: 40px;
+   height: 35%;
+}
+#group{
+   font-size: medium;
+  display: flex;
+  margin-left: 30px;
+  
+}
+.searchinput{
+   border-radius: 40px;
+   height: 40px;
+   width: 70%;
+   margin-left:20px ;
+   border-color:gray;
+   border: 1px solid;
+   
+}
+.searchbox button{
+   background-color: rgb(14, 14, 255);
+   border-radius: 20px;
+   width: 20%;
+   height: 40px;
+   color: white;
+   margin-left: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.Allgroup{
+   width: 700px;
+   margin-top: 50px;
+   background-color: white;
+   border-radius: 10px;
+   margin-left: 40px;
+   height: 25%;
+}
+#All{
+   color: red;
+   margin-left: 30px;
+   font-weight: bolder;
+}
+#grp{
+   margin-left: 20px;
+   font-weight: bolder;
+   color: black;
+}
+#five , #three{
+   margin-left: 10px;
+   width: 20px;
+   background-color: rgb(175, 89, 89);
+   color: white;
+   text-align: center;
+   padding: 10px;
+   padding-bottom: 1px;
+   padding-top: 0px;
+   border-radius: 12px;
+   
+
+}
+.group-box{
+   background-color: rgb(249, 247, 247);
+   border-radius: 10px 10px 0px 0px;
+   height: 50px;
+}
+.Lastactive{
+   margin-top: 50px;
+justify-content: center;
+width: 90%;
+margin-left: 25px;
+height: 40px;
+border-radius: 40px;
+color: gray;
+}
+#para{
+   margin-left: 40px;
+   color: gray;
+}
+.Gallery1{
+   margin-left: 35px;
+  
+}
+.gallery{
+   
+   display: flex;
+   flex-direction: row;
+   
+}
+.img2 img{
+   width: 225px;
+   height: 130px;
+   border-radius: 10px 10px 0px 0px;
+}
+.img1 img{
+width: 60px;
+height: 60px;
+margin-top: -35px;
+margin-left: 30px;
+}
+.leave{
+   text-align: center;
+   margin-left: 170px;
+   font-size: 10px;
+   margin-top: -35px;
+   color: rgb(15, 156, 212);
+   
+}
+.designername{
+   margin-left:30px;
+   font-weight:bold;
+}
+#hours{
+   margin-left: 30px;
+   color: gray;
+   font-size: small;
+
+}
+#hrpro{
+   width: 80%;
+   background-color: gray;
+   margin-left: 30px;
+}
+.photo{
+   margin: 5px;
+   background-color: white;
+   width: 225px;
+   height: 290px;
+   border-radius: 10px;
+   
+}
+.activemember{
+   box-shadow: 10px gray;
+}
+.member{
+   float: right;
+   margin-right: 50px;
+   margin-top: -810px;
+   background-color: white;
+   height: 230px;
+   width: 250px;
+   border-radius: 10px;
+   
+}
+.member h3{
+   margin-left: 20px;
+}
+#hractive{
+   width: 70%;
+   margin-right: 50px;
+   color: gray;
+}
+.member img{
+   width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.viewprofile{
+   display: flex;
+   flex-direction: row;
+}
+.member p{
+   margin-left:20px ;
+   margin-top: 30px;
+   font-weight: bolder;
+}
+.recent{
+   float: right;
+   margin-right: 50px;
+   margin-top: -540px;
+   background-color: white;
+   height: 420px;
+   width: 250px;
+   border-radius: 10px;
+}
+.recent h3{
+   margin-left: 20px;
+}
+.topic img{
+   width: 60px;
+   border-radius: 50%;
+   height: 55px;
+   margin-left: 15px;
+   margin-top: 10px;
+}
+.lol{
+   margin-top: -50px;
+   margin-left: 85px;
+   font-weight: 500;
+}
+.top{
+   margin-left:85px ;
+   margin-top: -19px;
+   font-size: x-small;
+   color: gray;
+}
+#dot{
+   color: red;
+}
+#logo{
+   color: black;
+}
+@media (max-width: 500px) {
+   body {
+       font-size: 14px;
+   }
+}
+#grps{
+   color: rgb(11, 138, 189);
+}
+.setting img{
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+}
+.setting{
+   float: right;
+   margin-top: -150px;
+}
